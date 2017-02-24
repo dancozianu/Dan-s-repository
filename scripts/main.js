@@ -16,10 +16,12 @@ $(document).ready(function(){
         $(this).css('outline-color','#FF0000');
         });
     });
- 
+ /* sliding panel*/
 $(document).ready(function(){
-    $('#menu').accordion();
+    $("#flip").click(function(){
+        $("#panel").slideToggle("slow");
     });
+});
 
 var myImage = document.querySelector('img');
 
