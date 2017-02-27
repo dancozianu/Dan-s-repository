@@ -41,10 +41,8 @@ body {
 
 
 img {
-    display: flex;
-    right:3rem;
-    bottom:0.8rem;
-    flex-wrap: wrap;
+    display: block;
+    float:right;
     }
 
 
