@@ -83,10 +83,10 @@ form {
      }
 
 #adresasediu {
-    display: inline;
+    display: block;
     font-size: 15px;
     color: green;
-    text-align:right;
+    float:right;
     }
 
 #panel, #flip {
