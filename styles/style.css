@@ -42,7 +42,6 @@ body {
 
 img {
     display: flex;
-   position:absolute;
     right:3rem;
     bottom:0.8rem;
     flex-wrap: wrap;
@@ -84,6 +83,7 @@ form {
      }
 
 #adresasediu {
+    display: inline;
     font-size: 15px;
     color: green;
     text-align:right;
