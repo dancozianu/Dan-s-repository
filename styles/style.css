@@ -41,7 +41,7 @@ body {
 
 
 img {
-    display: block;
+    display: inline;
     float:right;
     }
 
