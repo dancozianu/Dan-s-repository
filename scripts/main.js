@@ -37,7 +37,7 @@ myImage.onclick = function() {
 /* quoting */
     var quotePara = document.querySelector('section p');
     var quoteJson;
-    getQuotes('quotes.json', populateJson);
+    getQuotes("https://github.com/dancozianu/codecademy.github.io/blob/master/quotes.json", populateJson);
     var intervalID = window.setInterval(showQuote, 10000);
     function getQuotes("https://github.com/dancozianu/codecademy.github.io/blob/master/quotes.json", callback) {
       var request = new XMLHttpRequest();
