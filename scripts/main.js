@@ -39,9 +39,9 @@ myImage.onclick = function() {
     var quoteJson;
     getQuotes('quotes.json', populateJson);
     var intervalID = window.setInterval(showQuote, 10000);
-    function getQuotes(url, callback) {
+    function getQuotes("https://github.com/dancozianu/codecademy.github.io/blob/master/quotes.json", callback) {
       var request = new XMLHttpRequest();
-      request.open('GET', url);
+      request.open('GET', "https://github.com/dancozianu/codecademy.github.io/blob/master/quotes.json");
       request.responseType = 'json';
       request.send();
       request.onreadystatechange = function() {
