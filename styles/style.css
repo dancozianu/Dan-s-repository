@@ -76,8 +76,8 @@ form {
 figure {
     display: inline-block;
     position:absolute;
-    right:1rem;
-    bottom:8.5rem;
+    right:2rem;
+    bottom:14.5rem;
     }
 
 #adresasediu {
@@ -85,8 +85,8 @@ figure {
     font-size: 15px;
     color: green;
     position:absolute;
-    right:1rem;
-    bottom:6rem;
+    right:2rem;
+    bottom:12rem;
     }
 
 #panel, #flip {
