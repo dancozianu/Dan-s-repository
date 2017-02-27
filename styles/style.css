@@ -1,5 +1,5 @@
 html {
-    display:box;
+    display:block;
     width: auto;
   height: auto;
   font-size: 10px; /* px means 'pixels': the base font size is now 10 pixels high  */
