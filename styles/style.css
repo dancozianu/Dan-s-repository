@@ -102,3 +102,13 @@ form {
 #panel {
     padding: 50px;
     display: none;
+    
+   /* the Quaote */ 
+    section {
+        padding: 10px;
+        width: 400px;
+        background: #666;
+        text-shadow: 1px 1px 1px black;
+        color: white;
+        min-height: 150px;
+      }
