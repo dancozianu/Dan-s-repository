@@ -58,11 +58,13 @@ nav ul li {
 
 nav ul li:active{
             top:3px;
+    text-decoration:none;
                 }
 
 
 .active {
     background-color:#556677;
+    text-decoration:none;
         }
 
 
