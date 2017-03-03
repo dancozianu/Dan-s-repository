@@ -85,19 +85,13 @@ iframe {
 
 figure {
     display:block;
-    position:absolute;
-    right:2rem;
-    bottom:14.5rem;
-    }
+        }
 
 #adresasediu {
     display:block;
     font-size: 15px;
     color: green;
-    position:absolute;
-    right:2rem;
-    bottom:12rem;
-    }
+            }
 
 #panel, #flip {
     padding: 5px;
