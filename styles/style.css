@@ -71,6 +71,10 @@ nav ul li:active{
     text-decoration:none;
         }
 
+iframe {
+        display:block;
+        }
+
 
 /* Name: */
 #completeaza_nume {
