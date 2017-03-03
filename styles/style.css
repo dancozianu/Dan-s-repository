@@ -91,6 +91,7 @@ iframe {
 figure {
     display:block;
     margin:2rem;
+    float:right;
         }
 
 #adresasediu {
