@@ -72,6 +72,7 @@ nav ul li:active{
 
 iframe {
         display:block;
+    margin:2rem;
         }
 
 
@@ -79,18 +80,20 @@ iframe {
 #completeaza_nume {
     font-family: Verdana, Arial, Sans-Serif;
     padding:1rem;
-    margin:10px;
+    margin:2rem;
     display:block;
      }
 
 figure {
     display:block;
+    margin:2rem;
         }
 
 #adresasediu {
     display:block;
     font-size: 15px;
     color: green;
+    margin:2rem;
             }
 
 #panel, #flip {
@@ -100,9 +103,9 @@ figure {
     border: solid 1px #c3c3c3;
     float:right;
     clear:both;
-}
+    }
 
 #panel {
     padding: 50px;
     display: none;
-        }
+            }
