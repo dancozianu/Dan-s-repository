@@ -100,6 +100,7 @@ figure {
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
     float:right;
+    clear:both;
 }
 
 #panel {
