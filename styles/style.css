@@ -1,3 +1,7 @@
+* {
+    border: 2px solid black;
+    }
+
 html {
     display:block;
     width: auto;
@@ -6,8 +10,7 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
     background-color:dimgray;
     margin:10px;
-    * {outline : 1px solid red; }
-      }
+       }
 
 
 h1 {
