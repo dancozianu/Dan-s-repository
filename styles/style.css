@@ -76,8 +76,6 @@ nav ul li:active{
 iframe {
         display:block;
         margin:2rem;
-        float:left;
-        clear:right;
         }
 
 
