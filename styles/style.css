@@ -42,10 +42,10 @@ nav ul li {
             position:relative;
             }
 
-nav ul li:active{
-                top:3px;
-                text-decoration:none;
-                }
+nav ul li:active {
+                  top:3px;
+                  text-decoration:none;
+                 }
 
 
 .active {
@@ -86,7 +86,6 @@ iframe {
 
 #completeaza_nume {
                     font-family: Verdana, Arial, Sans-Serif;
-                    padding:1rem;
                     display:block;
                     margin:2rem;
                     bottom:-20rem;
@@ -99,7 +98,7 @@ a.adresaemail {
                 display: inline-block;
                 position: relative;
                 bottom:-16.5rem;
-                }
+               }
 
 figure {
         display: inline-block;
@@ -112,4 +111,4 @@ figure {
                 color: green;
                 float: right;
                 clear:both;
-             }
+              }
