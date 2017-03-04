@@ -13,8 +13,8 @@ html {
        }
 
 body {
-  margin: 0 auto;
-  background-color:floralwhite;
+        height:86rem;
+        background-color:floralwhite;
     }
 
 h1 {
@@ -30,15 +30,6 @@ h1 {
                      0 -50px 65px #973716,
                      10px -70px 70px #451b0e;
   }
-
-
-
-
-a.adresaemail {
-    font-size: 16px;
-    margin:2rem;
-                }
-
 
 
 nav ul li {
@@ -69,15 +60,16 @@ span {
   font-size: 16px;    
   line-height: 2;
   letter-spacing: 1px;
-    position:relative;
+    position:static;
     margin:3rem;.
     display:block;
  }
 
 iframe {
-        display:inline-block;
-        margin:2rem;
-        
+        width:50rem;  
+        height:30rem;
+        margin:1rem;
+           
         }
 
 
@@ -89,30 +81,44 @@ iframe {
     margin:2rem;
      }
 
-figure {
-    display:block;
-    margin:2rem;
-    float:right;
-        }
-
-#adresasediu {
-    display:block;
-    font-size: 15px;
-    color: green;
-    margin:2rem;
-            }
 
 #panel, #flip {
     padding: 5px;
     text-align: center;
     background-color: #e5eecc;
     border: solid 1px #c3c3c3;
-    display:inline-block;
-    float:right;
+    float: right;
+    
     
         }
 
 #panel {
-    padding: 50px;
+    padding: 1rem;
     display: none;
+}
+
+a.adresaemail {
+    font-size: 16px;
+    margin:2rem;
+    display: inline-block;
+    position:absolute;
+    bottom:-20rem
+                }
+
+figure {
+        position: absolute;
+        right:2rem;
+        bottom:-15rem;
+        
+    
+        }
+
+#adresasediu {
+    display:inline-block;
+    font-size: 15px;
+    color: green;
+    position: absolute;
+    right:2rem;
+    bottom:-20rem;
+    
             }
