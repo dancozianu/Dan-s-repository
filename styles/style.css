@@ -1,4 +1,5 @@
 
+
 html {
     display:block;
     width: auto;
@@ -7,11 +8,13 @@ html {
   font-family: 'Source Sans Pro', sans-serif;
     background-color:dimgray;
     margin:10px;
+    overflow: auto;
        }
 
 body {
         height:86rem;
         background-color:floralwhite;
+        overflow: auto;
     }
 
 h1 {
@@ -92,31 +95,30 @@ iframe {
     padding:1rem;
     display:block;
     margin:2rem;
-    margin-top: 10rem;
+    bottom:-20rem;
+    position: relative;
+    
      }
 
 a.adresaemail {
     font-size: 16px;
     margin:2rem;
     display: inline-block;
-    position:absolute;
-    bottom:-20rem
-                }
+    position: relative;
+    bottom:-16.5rem;
+                    }
 
 figure {
-        position: absolute;
-        right:2rem;
-        bottom:-15rem;
-        
-    
+        display: inline-block;
+        margin-bottom:rem;
+        float: right
         }
 
 #adresasediu {
     display:inline-block;
     font-size: 15px;
     color: green;
-    position: absolute;
-    right:2rem;
-    bottom:-20rem;
-    
+    float: right;
+        
+    clear:both;
             }
