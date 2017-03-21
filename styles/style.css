@@ -51,6 +51,7 @@ nav ul li:active {
 .active {
          background-color:#556677;
          text-decoration:none;
+        color:white;
         }
 
 span {
