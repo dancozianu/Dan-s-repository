@@ -45,13 +45,14 @@ nav ul li {
 nav ul li:active {
                   top:3px;
                   text-decoration:none;
+                  color:white;  
                  }
 
 
 .active {
          background-color:#556677;
          text-decoration:none;
-        color:white;
+         color:white;
         }
 
 span {
