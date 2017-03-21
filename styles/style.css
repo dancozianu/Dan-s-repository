@@ -29,7 +29,7 @@ h1 {
    }
 
 
-nav ul li {
+nav ul {
             border-radius: 5px;
             background-color: #ABCDEF;
             transition: background-color 0.5s ease;
