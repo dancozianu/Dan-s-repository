@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('nav ul li').hover(
+  $('nav ul').hover(
     function(){
      $(this).addClass('active');
     },
