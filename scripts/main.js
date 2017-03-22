@@ -35,5 +35,5 @@ myImage.onclick = function() {
 }
 
 $(document).ready(function(){
-  $('img').fadeIn(400);
+  $('figure').fadeIn(400);
 }
