@@ -35,8 +35,8 @@ myImage.onclick = function() {
 };
 
 function main() {
-  $('img').hide();
-  $('img').fadeIn(1000);
+  $('figure').hide();
+  $('figure').fadeIn(1000);
 }
 
 $(document).ready(main);
