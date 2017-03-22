@@ -31,9 +31,9 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/firefox2.jpg');
     } else {
       myImage.setAttribute ('src','images/contactiv.jpg');
-    }
-}
+    };
+};
 
 $(document).ready(function(){
   $('figure').fadeIn(400);
-}
+};
