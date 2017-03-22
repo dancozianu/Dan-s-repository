@@ -33,3 +33,10 @@ myImage.onclick = function() {
       myImage.setAttribute ('src','images/contactiv.jpg');
     };
 };
+
+function main() {
+  $('img').hide();
+  $('img').fadeIn(1000);
+}
+
+$(document).ready(main);
